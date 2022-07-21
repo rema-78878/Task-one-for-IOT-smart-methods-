@@ -1,0 +1,21 @@
+1-In your Arduino IDE, go to File> Preferences
+2-Enter the following into the “Additional Board Manager URLs” field.
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+Then, click the “OK” button.
+
+3-Open the Boards Manager. Go to Tools > Board > Boards Manager…
+
+4-Search for ESP32 and press install button for the “ESP32 by Espressif Systems“.
+5-That’s it. It should be installed after a few seconds.
+
+6-Select your Board in Tools > Board menu (in my case it’s the DOIT ESP32 DEVKIT V1).
+7-Select the Port (if you don’t see the COM Port in your Arduino IDE, you need to install the CP210x USB to UART Bridge VCP Drivers).
+8-Open the following example under File > Examples > WiFi (ESP32) > WiFiScan
+9- A new sketch opens in your Arduino IDE.
+10-Press the Upload button in the Arduino IDE. Wait a few seconds while the code compiles and uploads to your board.
+11-If everything went as expected, you should see a “Done uploading.” message.
+12-Open the Arduino IDE Serial Monitor at a baud rate of 115200.
+13-Press the ESP32 on-board Enable button and you should see the networks available near your ESP32.
+
+it's done now!

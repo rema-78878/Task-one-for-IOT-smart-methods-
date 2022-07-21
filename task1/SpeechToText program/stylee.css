@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 20px;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color:rgba(121, 173, 223, 0.481);
+    flex-direction: column;
+    padding: 10px;
+   
+}
+section h1{
+    color: rgb(24, 94, 135);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+section p{
+    color: azure;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.container{
+    width: 90%;
+    max-width:500px ;
+    margin:0 auto;
+    justify-content: center;
+}
+.texts p{
+    color: rgb(120, 120, 241);
+    background-color: rgba(172, 193, 212, 0.453);
+    
+}
+
